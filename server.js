@@ -26,7 +26,7 @@ app.use('/', routes);
 
 ////catch-all route
 app.all('*', function(req, res) {
-    res.status(404).send('404 Error: Page Not Found');
+    res.status(404).send('This is the error message for Page Not Found');
 });
 
 
