@@ -17,6 +17,9 @@ app.get('/', function(req, res) {
 * Add dependency to custom module in server.js
 `var routes = require('./routes');`
 
+* Add middleware definition in server.js
+`app.use('/', routes);`
+
 * Add routes in ./routes/index.js
 ```
 var express = require('express');
@@ -34,6 +37,9 @@ module.exports = myRouter;
 ## Routing in big-size projects
 * Add dependency to custom module in server.js
 `var routes = require('./routes');`
+
+* Add middleware definition in server.js
+`app.use('/', routes);`
 
 * Add routes in ./routes/index.js
 ```
